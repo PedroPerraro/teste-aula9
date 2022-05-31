@@ -18,7 +18,12 @@
 
 .content{
     background-color: rgb(154, 154, 255);
-    height: 500px;
+    height: 250px;
+    float: left;
+}
+.content1{
+    background-color: rgb(154, 154, 255);
+    height: 250px;
     float: left;
 }
 
@@ -31,7 +36,7 @@
 
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    .container, .header, .navbar, .content, .footer   
+    .container, .header, .navbar, .content, .content1, .footer   
     {
       width: 100%;
     }
