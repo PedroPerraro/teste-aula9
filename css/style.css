@@ -1,0 +1,38 @@
+.container{
+    background-color: aquamarine;
+    height: 200px;
+    float: left;
+}
+
+.header{
+    background-color: aqua;
+    height: 150px;
+    float: left;
+}
+
+.navbar{
+    background-color: rgb(236, 255, 255);
+    height: 200px;
+    float: left;
+}
+
+.content{
+    background-color: rgb(154, 154, 255);
+    height: 500px;
+    float: left;
+}
+
+.footer{
+    background-color: rgb(228, 204, 250);
+    height: 150px;
+    float: left;
+}
+
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .container, .header, .navbar, .content, .footer   
+    {
+      width: 100%;
+    }
+  }
